@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class TooLargeTooSmall here.
+ * Correct guesses returns 0, low guesses return -1, high guesses return 1
  *
- * @Mike Ninh
- * @02/24/2021
+ * @ Mike Ninh
+ * @ 02/24/2021
  */
 public class TooLargeTooSmall {
     private Integer chosenNum;
@@ -15,7 +15,7 @@ public class TooLargeTooSmall {
         // initialise instance variables
         chosenNum = seed;
     }
-    // Correct guess returns 0, Low guesses return -1, High guesses return 1
+    
     
     public Integer guess(Integer g) {
         if (g < chosenNum){

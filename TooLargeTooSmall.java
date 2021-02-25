@@ -18,17 +18,15 @@ public class TooLargeTooSmall {
     // Correct guess returns 0, Low guesses return -1, High guesses return 1
     
     public Integer guess(Integer g) {
-        if (g == chosenNum){
-            return 0;
+        if (g < chosenNum){
+            return -1;
         }
         else if (g > chosenNum){
             return 1;
         }
         else {
-            return -1;
+            return 0;
         }
                
-    
-
     }
 }
